@@ -1,7 +1,7 @@
 # Implicit Graph Neural Networks
 This repository is the official PyTorch implementation of "Implicit Graph Neural Networks".
 
-Fangda Gu*, Heng Chang*, Wenwu Zhu, Somayeh Sojoudi, Laurent El Ghaoui, [Implicit Graph Neural Networks](https://arxiv.org/abs/2009.06211), NeurIPS 2020.
+Fangda Gu*, Heng Chang*, Wenwu Zhu, Somayeh Sojoudi, Laurent El Ghaoui, [Implicit Graph Neural Networks](https://proceedings.neurips.cc/paper/2020/file/8b5c8441a8ff8e151b191c53c1842a38-Paper.pdf), NeurIPS 2020.
 
 ## Requirements
 The script has been tested running under Python 3.6.9, with the following packages installed (along with their dependencies):
