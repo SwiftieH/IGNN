@@ -18,11 +18,14 @@ We provide examples on the tasks of node classification and graph classification
 
 ```
 @inproceedings{gu2020implicit,
-  title={Implicit Graph Neural Networks},
-  author={Gu, Fangda and Chang, Heng and Zhu, Wenwu and Sojoudi, Somayeh and El Ghaoui, Laurent},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
+ author = {Gu, Fangda and Chang, Heng and Zhu, Wenwu and Sojoudi, Somayeh and El Ghaoui, Laurent},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {11984--11995},
+ publisher = {Curran Associates, Inc.},
+ title = {Implicit Graph Neural Networks},
+ volume = {33},
+ year = {2020}
 }
+
 ```
 
