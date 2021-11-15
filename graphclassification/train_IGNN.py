@@ -98,7 +98,10 @@ for fold_idx in range(10):
             if data.edge_attr is None:
                 edge_weight = torch.ones((data.edge_index.size(1), ), dtype=torch.float32, device=data.edge_index.device)
             else:
-                edge_weight = data.edge_attr
+                if args.dataset == 'MUTAG':
+                    edge_weight = data.edge_attr.argmax(1)
+                else:
+                    edge_weight = data.edge_attr
             adj_sp = csr_matrix((edge_weight.cpu().numpy(), (data.edge_index[0,:].cpu().numpy(), data.edge_index[1,:].cpu().numpy() )), shape=(data.num_nodes, data.num_nodes))
             adj_normalizer = fetch_normalization("AugNormAdj")
             adj_sp_nz = adj_normalizer(adj_sp)
